@@ -1,0 +1,62 @@
+============================================================
+INFERENCE SUMMARY - UNSEEN UNDERWATER WASTE IMAGES
+============================================================
+
+MODEL INFORMATION:
+----------------------------------------
+Model: runs/detect/uw_waste_v4/weights/best.pt
+Training data: Roboflow annotated dataset
+Classes: bottle, polythene, styrofoam
+
+INFERENCE STATISTICS:
+----------------------------------------
+Total images processed: 10
+Images with detections: 10 (100.0%)
+Total objects detected: 11
+
+DETECTIONS BY CLASS:
+----------------------------------------
+Bottle      : 5
+Polythene   : 2
+Styrofoam   : 4
+
+DETAILED RESULTS:
+----------------------------------------
+
+Image: 5.jpg
+  - Bottle: 0.805
+
+Image: 7.jpg
+  - Bottle: 0.836
+
+Image: 9.jpg
+  - styrofoam: 0.498
+
+Image: 8.jpg
+  - Bottle: 0.739
+
+Image: 6.jpg
+  - Bottle: 0.500
+
+Image: 3.jpg
+  - styrofoam: 0.291
+  - Polythene: 0.269
+
+Image: 1.jpg
+  - Bottle: 0.670
+
+Image: 4.jpg
+  - styrofoam: 0.827
+
+Image: 2.jpg
+  - styrofoam: 0.576
+
+Image: 10.jpg
+  - Polythene: 0.594
+
+============================================================
+NOTES:
+- These are TRULY UNSEEN images (not in training/validation/test sets)
+- All 10 images were downloaded separately
+- Confidence threshold: 0.25
+- Device: CPU

@@ -1,0 +1,123 @@
+{
+  "model": "best.pt",
+  "total_images": 10,
+  "images_with_detections": 10,
+  "total_detections": 11,
+  "detection_details": [
+    {
+      "image": "5.jpg",
+      "detections": [
+        {
+          "class": "Bottle",
+          "confidence": 0.805,
+          "class_id": 0
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "7.jpg",
+      "detections": [
+        {
+          "class": "Bottle",
+          "confidence": 0.836,
+          "class_id": 0
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "9.jpg",
+      "detections": [
+        {
+          "class": "styrofoam",
+          "confidence": 0.498,
+          "class_id": 2
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "8.jpg",
+      "detections": [
+        {
+          "class": "Bottle",
+          "confidence": 0.739,
+          "class_id": 0
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "6.jpg",
+      "detections": [
+        {
+          "class": "Bottle",
+          "confidence": 0.5,
+          "class_id": 0
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "3.jpg",
+      "detections": [
+        {
+          "class": "styrofoam",
+          "confidence": 0.291,
+          "class_id": 2
+        },
+        {
+          "class": "Polythene",
+          "confidence": 0.269,
+          "class_id": 1
+        }
+      ],
+      "count": 2
+    },
+    {
+      "image": "1.jpg",
+      "detections": [
+        {
+          "class": "Bottle",
+          "confidence": 0.67,
+          "class_id": 0
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "4.jpg",
+      "detections": [
+        {
+          "class": "styrofoam",
+          "confidence": 0.827,
+          "class_id": 2
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "2.jpg",
+      "detections": [
+        {
+          "class": "styrofoam",
+          "confidence": 0.576,
+          "class_id": 2
+        }
+      ],
+      "count": 1
+    },
+    {
+      "image": "10.jpg",
+      "detections": [
+        {
+          "class": "Polythene",
+          "confidence": 0.594,
+          "class_id": 1
+        }
+      ],
+      "count": 1
+    }
+  ]
+}
